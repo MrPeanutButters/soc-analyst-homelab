@@ -66,4 +66,4 @@ Setting up a homelab like this has allowed me to:
 
 ## 📫 Contact
 
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/chrisbebawy) or reach out if you're interested in collaborating or offering feedback!
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/chrisbebawy) or reach out if you're interested in collaborating or offering feedback!
