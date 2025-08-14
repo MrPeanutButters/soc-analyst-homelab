@@ -6,7 +6,7 @@ This project simulates a Security Operations Center (SOC) analyst environment us
 
 ---
 
-## 🧰 Lab Overview
+## Lab Overview
 
 **Virtual Machines Used:**
 - **Kali Linux (Attacker):** Used to launch brute-force attacks using Hydra.
@@ -21,7 +21,7 @@ This project simulates a Security Operations Center (SOC) analyst environment us
 
 ---
 
-## 🛡️ Detection Scenario
+## Detection Scenario
 
 **Attack Simulated:**  
 A dictionary-based brute-force attack via RDP using Hydra.
@@ -35,7 +35,7 @@ An alert was configured in Splunk to trigger when brute-force patterns are detec
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 A visual demonstration of the environment:
 - Hydra console running the attack
@@ -45,7 +45,7 @@ A visual demonstration of the environment:
 
 ---
 
-## 🚀 Why This Lab?
+## Why This Lab?
 
 Setting up a homelab like this has allowed me to:
 - Practice detection engineering and threat hunting
@@ -56,7 +56,7 @@ Setting up a homelab like this has allowed me to:
 
 ---
 
-## 🔍 Future Enhancements
+## Future Enhancements
 
 - Add Wazuh or Security Onion for more robust host-based detection
 - Simulate phishing or credential harvesting scenarios
@@ -64,6 +64,6 @@ Setting up a homelab like this has allowed me to:
 
 ---
 
-## 📫 Contact
+## Contact
 
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/chrisbebawy) or reach out if you're interested in collaborating or offering feedback!
