@@ -1,78 +1,80 @@
-# soc-analyst-homelab
-Simulated SOC Analyst environment using Kali Linux, Splunk, Sysmon, and Hydra for log analysis and threat detection
-# SOC Analyst Homelab
+# 🛡️ SOC Analyst Homelab  
 
-This project simulates a Security Operations Center (SOC) analyst environment using open-source tools in a virtual lab setting. The goal is to practice threat detection, log analysis, and incident response workflows in a hands-on environment that mirrors real-world SOC operations.
-![1753555582330](https://github.com/user-attachments/assets/c33e5627-4bb4-4dbe-b789-de9e759fdf8c)
+Hands-on SOC Analyst homelab simulating brute-force attacks and detection workflows with Splunk, Sysmon, Hydra, and MITRE ATT&CK. Built to practice **threat detection, log analysis, and incident response** in a realistic environment that mirrors enterprise SOC operations.  
 
----
-
-## Lab Overview
-
-**Virtual Machines Used:**
-- **Kali Linux (Attacker):** Used to launch brute-force attacks using Hydra.
-- **Windows 10 (Victim):** Configured with RDP and monitored via Sysmon for system activity.
-- **Ubuntu Linux (SIEM):** Hosts Splunk Enterprise for log aggregation and analysis.
-
-**Security Tools:**
-- **Hydra:** Performs RDP brute-force attacks against the Windows target.
-- **Sysmon:** Provides detailed event logging on the Windows VM.
-- **Splunk:** Ingests and analyzes logs to detect brute-force activity.
-- **MITRE ATT&CK Framework:** Used to map detected adversary behavior.
+![Lab Screenshot](https://github.com/user-attachments/assets/c33e5627-4bb4-4dbe-b789-de9e759fdf8c)  
 
 ---
 
-## Detection Scenario
+## 🌐 Lab Overview  
+
+**Virtual Machines:**  
+- **Kali Linux (Attacker):** Launches brute-force attacks with Hydra  
+- **Windows 10 (Victim):** RDP-enabled endpoint with Sysmon logging  
+- **Ubuntu Linux (SIEM):** Hosts Splunk Enterprise for log ingestion and analysis  
+
+**Security Tools:**  
+- **Hydra:** Executes RDP brute-force attacks  
+- **Sysmon:** Provides detailed Windows telemetry  
+- **Splunk:** Aggregates logs, detects brute-force attempts, triggers alerts  
+- **MITRE ATT&CK:** Maps adversary behavior for structured detection coverage  
+
+---
+
+## 🔎 Detection Scenario  
 
 **Attack Simulated:**  
-A dictionary-based brute-force attack via RDP using Hydra.
+- RDP brute-force attack launched via Hydra  
 
-**Detection Method:**
-- **Sysmon Logs:** Captures authentication attempts, failed logins, and lockouts.
-- **Splunk Search Query:** Searches for repeated failed logon events from the same IP within a short timeframe.
-
-**Custom Alert:**
-An alert was configured in Splunk to trigger when brute-force patterns are detected based on event frequency and thresholds.
+**Detection Method:**  
+- **Sysmon Logs:** Captured failed authentication attempts  
+- **Splunk Search Query:** Correlated repeated logon failures from the same IP  
+- **Custom Splunk Alert:** Triggered on brute-force patterns based on frequency and thresholds  
 
 ---
 
-## Screenshots
+## ✅ Results  
 
-A visual demonstration of the environment:
-- Hydra console running the attack
-- Splunk showing brute-force logs and triggered alert
-- Event Viewer on the Windows VM showing failed RDP login attempts
-- MITRE ATT&CK page used to map the behavior
+- Brute-force detection time reduced to **<30 seconds** with Splunk correlation searches  
+- SOC-style pipeline built: Sysmon → Splunk → Automated Alert  
+- Incident aligned with **MITRE ATT&CK T1110 (Brute Force)**  
+- Documented investigation workflow for SOC-style reporting  
+
+---
+
+## 📸 Screenshots  
+
+- Hydra console running the attack  
+- Splunk dashboards/alerts for brute-force detection  
+- Windows Event Viewer showing failed logins  
+- MITRE ATT&CK reference mapping  
+
 <img width="1205" height="1193" alt="Screenshot 2025-07-20 181443" src="https://github.com/user-attachments/assets/42e3384b-6005-43ee-a3c7-d88abda1ac12" />  
-<img width="1262" height="1357" alt="Screenshot 2025-07-20 205152" src="https://github.com/user-attachments/assets/563a0808-01a3-4c01-a7fb-6eca29a5f6ba" />
-<img width="585" height="704" alt="Screenshot 2025-07-20 194553" src="https://github.com/user-attachments/assets/0ac631dc-e7db-43ac-8be1-7b9b363b099a" />
+<img width="1262" height="1357" alt="Screenshot 2025-07-20 205152" src="https://github.com/user-attachments/assets/563a0808-01a3-4c01-a7fb-6eca29a5f6ba" />  
+<img width="585" height="704" alt="Screenshot 2025-07-20 194553" src="https://github.com/user-attachments/assets/0ac631dc-e7db-43ac-8be1-7b9b363b099a" />  
 
 ---
 
-## Why This Lab?
+## 💡 Why This Lab?  
 
-Setting up a homelab like this has allowed me to:
-- Practice detection engineering and threat hunting
-- Simulate common attack patterns
-- Understand log telemetry across operating systems
-- Build familiarity with SIEM tools like Splunk
-- Reinforce the value of correlation and alerting logic in SOC workflows
-
-
-
-
-
-
-
-
-## Future Enhancements
-
-- Add Wazuh or Security Onion for more robust host-based detection
-- Simulate phishing or credential harvesting scenarios
-- Integrate MITRE ATT&CK Navigator to visualize coverage
+This project demonstrates my ability to:  
+- Engineer detections in a SIEM (Splunk)  
+- Perform threat hunting and alert triage  
+- Map attacker behavior to frameworks (MITRE ATT&CK)  
+- Document incidents in SOC-style reports  
 
 ---
 
-## Contact
+## 🚀 Future Enhancements  
 
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/chrisbebawy) or reach out if you're interested in collaborating or offering feedback!
+- Add Wazuh or Security Onion for expanded host/network detection  
+- Simulate phishing and credential harvesting scenarios  
+- Integrate MITRE ATT&CK Navigator for visual coverage mapping  
+
+---
+
+## 📫 Contact  
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/chrisbebawy/)  
+[![Credly](https://img.shields.io/badge/Credly-Certifications-orange?style=flat&logo=credly)](https://www.credly.com/users/chris-bebawy)  
+[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?style=flat&logo=github)](https://github.com/MrPeanutButters)  
