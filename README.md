@@ -43,6 +43,9 @@ A visual demonstration of the environment:
 - Splunk showing brute-force logs and triggered alert
 - Event Viewer on the Windows VM showing failed RDP login attempts
 - MITRE ATT&CK page used to map the behavior
+<img width="1262" height="1357" alt="Screenshot 2025-07-20 205152" src="https://github.com/user-attachments/assets/563a0808-01a3-4c01-a7fb-6eca29a5f6ba" />
+<img width="1205" height="1193" alt="Screenshot 2025-07-20 181443" src="https://github.com/user-attachments/assets/42e3384b-6005-43ee-a3c7-d88abda1ac12" />
+<img width="585" height="704" alt="Screenshot 2025-07-20 194553" src="https://github.com/user-attachments/assets/0ac631dc-e7db-43ac-8be1-7b9b363b099a" />
 
 ---
 
@@ -55,9 +58,10 @@ Setting up a homelab like this has allowed me to:
 - Build familiarity with SIEM tools like Splunk
 - Reinforce the value of correlation and alerting logic in SOC workflows
 
----<img width="1205" height="1193" alt="Screenshot 2025-07-20 181443" src="https://github.com/user-attachments/assets/42e3384b-6005-43ee-a3c7-d88abda1ac12" />
-![Uploading Screenshot 2025-07-20 205152.png…]()
-<img width="585" height="704" alt="Screenshot 2025-07-20 194553" src="https://github.com/user-attachments/assets/0ac631dc-e7db-43ac-8be1-7b9b363b099a" />
+
+
+
+
 
 
 
