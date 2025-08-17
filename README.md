@@ -3,6 +3,7 @@ Simulated SOC Analyst environment using Kali Linux, Splunk, Sysmon, and Hydra fo
 # SOC Analyst Homelab
 
 This project simulates a Security Operations Center (SOC) analyst environment using open-source tools in a virtual lab setting. The goal is to practice threat detection, log analysis, and incident response workflows in a hands-on environment that mirrors real-world SOC operations.
+![1753555582330](https://github.com/user-attachments/assets/c33e5627-4bb4-4dbe-b789-de9e759fdf8c)
 
 ---
 
@@ -54,7 +55,11 @@ Setting up a homelab like this has allowed me to:
 - Build familiarity with SIEM tools like Splunk
 - Reinforce the value of correlation and alerting logic in SOC workflows
 
----
+---<img width="1205" height="1193" alt="Screenshot 2025-07-20 181443" src="https://github.com/user-attachments/assets/42e3384b-6005-43ee-a3c7-d88abda1ac12" />
+![Uploading Screenshot 2025-07-20 205152.png…]()
+<img width="585" height="704" alt="Screenshot 2025-07-20 194553" src="https://github.com/user-attachments/assets/0ac631dc-e7db-43ac-8be1-7b9b363b099a" />
+
+
 
 ## Future Enhancements
 
